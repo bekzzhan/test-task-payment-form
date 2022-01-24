@@ -1,0 +1,2 @@
+export const MAKE_PAYMENT = 'MAKE_PAYMENT';
+export const PRODUCT_PAID = 'PRODUCT_PAID';
