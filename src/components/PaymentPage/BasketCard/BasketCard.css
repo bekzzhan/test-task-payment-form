@@ -1,0 +1,7 @@
+.ant-card-body {
+    display: flex;
+    column-gap: 15px;
+}
+.card-info span {
+    display: block;
+}

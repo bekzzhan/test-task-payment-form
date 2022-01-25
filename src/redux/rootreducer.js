@@ -4,7 +4,7 @@ import purchaseReducer from "./reducers/purchaseReducer";
 
 const rootreducer = combineReducers({
   payment: paymentReducer,
-  purchase: purchaseReducer,
+  purchases: purchaseReducer,
 })
 
 export default rootreducer;

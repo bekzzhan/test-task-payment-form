@@ -14,9 +14,9 @@ export const makePayment = (cardNo,name,date,code,amount) => {
   }
 }
 
-export const changePurchaseStatus = (status) => {
+export const changePurchaseStatus = (id, status) => {
   return {
     type: PRODUCT_PAID,
-    payload: status,
+    payload: {id, status},
   }
 }
