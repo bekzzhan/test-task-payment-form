@@ -1,0 +1,15 @@
+.result-page-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result-page {
+    width: 450px;
+}
+
+.result-page-title {
+    text-align: center;
+    color: green;
+}
