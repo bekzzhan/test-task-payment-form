@@ -14,7 +14,7 @@ const Basket = ({purchases, basket, addBasketSum}) => {
   return (
     <div className='basket'>
       <List
-        header={<div>Корзина</div>}
+        header={<div className='basket-header'>Корзина</div>}
         footer={
           <div className='basket-footer'>
             <span>Количество товаров: {basket.quantity} шт</span>

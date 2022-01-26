@@ -11,6 +11,10 @@ input[type='number'] {
     column-gap: 20px;
 }
 
+.payment-form-input {
+    margin-bottom: 20px;
+}
+
 .input-name input {
     text-transform: uppercase;
 }

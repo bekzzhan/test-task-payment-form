@@ -4,6 +4,9 @@
 .ant-list-items {
     overflow: scroll;
 }
+.basket-header {
+    font-size: 20px;
+}
 .basket-footer {
     display: flex;
     flex-direction: column;
