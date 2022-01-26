@@ -8,6 +8,14 @@ const initialState = [
     price: 214990,
     quantity: 1,
     status: 'ожидает оплаты'
+  },
+  {
+    id: 2,
+    title: 'Смартфон Apple iPhone 13 256GB Blue',
+    imageSrc: 'https://www.technodom.kz/media/catalog/product/cache/1366e688ed42c99cd6439df4031862c6/4/0/402639b7f5662ef0fdeb0e49526f6ea9a5c4357c_252954_1.jpg',
+    price: 574990,
+    quantity: 1,
+    status: 'ожидает оплаты'
   }
 ]
 

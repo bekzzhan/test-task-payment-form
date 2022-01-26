@@ -1,0 +1,21 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.payment-form-input-area {
+    display: flex;
+    column-gap: 20px;
+}
+
+.input-name input {
+    text-transform: uppercase;
+}
+
+.payment-form-button-area {
+    display: flex;
+    justify-content: center;
+}

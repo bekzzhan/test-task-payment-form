@@ -1,3 +1,10 @@
 .basket {
     width: 400px;
 }
+.ant-list-items {
+    overflow: scroll;
+}
+.basket-footer {
+    display: flex;
+    flex-direction: column;
+}

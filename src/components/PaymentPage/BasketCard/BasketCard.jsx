@@ -14,7 +14,7 @@ const BasketCard = ({purchase}) => {
       <div className="card-info">
         <h4>{title}</h4>
         <span>Цена: {price} тг</span>
-        <span>Количество: {quantity}</span>
+        <span>Количество: {quantity} шт</span>
         <span>Статус: {status}</span>
       </div>
     </Card>

@@ -3,7 +3,7 @@ import {MAKE_PAYMENT} from "../actionTypes";
 const initialState = {
   cardNo: '',
   name: '',
-  date: '',
+  expDate: '',
   code: '',
   amount: ''
 }
@@ -14,10 +14,9 @@ const paymentReducer = (state = initialState, action) => {
       ...state,
       cardNo: action.payload.cardNo,
       name: action.payload.name,
-      date: action.payload.date,
+      expDate: action.payload.expDate,
       code: action.payload.code,
-      amount: action.payload.amount
-      
+      amount: action.payload.amount,
     }
     
     default: return state
